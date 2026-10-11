@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Stamp Desk sketch</title>
+<style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:#2b2320;font-family:Arial,Helvetica,sans-serif;color:#1b1716}
+.cover{position:absolute;inset:28px 40px 0 40px;background:#D9A44E;border-radius:4px 4px 0 0;
+ background-image:repeating-linear-gradient(90deg,rgba(0,0,0,.03) 0 2px,transparent 2px 5px);padding:40px 56px}
+.top{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid #1b1716;padding-bottom:18px}
+.logo{display:flex;align-items:center;gap:14px}
+.ics{font-family:Impact,'Arial Narrow',sans-serif;font-size:64px;color:#B5121B;letter-spacing:1px;line-height:.85}
+.rule{width:2px;height:62px;background:#B5121B}
+.words{font-weight:700;font-size:19px;line-height:1.08}
+nav{display:flex;gap:30px;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding-top:20px}
+.fields{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:20px;font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+.fields div{border-bottom:1px solid #1b1716;padding:8px 0}
+.subject{margin-top:44px;font-size:14px;letter-spacing:.2em;text-transform:uppercase}
+h1{font-family:Impact,'Arial Narrow',sans-serif;font-weight:400;font-size:112px;line-height:.92;text-transform:uppercase;margin-top:10px;max-width:880px}
+.lede{font-size:22px;max-width:620px;margin-top:22px;line-height:1.4}
+.slip{position:absolute;right:70px;top:250px;width:380px;background:#FBF8F1;padding:26px;transform:rotate(1.5deg);box-shadow:0 2px 0 rgba(0,0,0,.25)}
+.slip h3{font-size:14px;letter-spacing:.2em;text-transform:uppercase;border-bottom:2px solid #1b1716;padding-bottom:10px}
+.slip label{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-top:16px}
+.slip .in{border-bottom:1px solid #1b1716;height:30px}
+.slip .btn{margin-top:22px;background:#B5121B;color:#fff;font-weight:700;padding:16px;text-align:center;font-size:17px}
+.stamp{position:absolute;border:4px solid #3B2A78;color:#3B2A78;font-family:Impact,sans-serif;font-size:30px;padding:6px 16px;letter-spacing:.08em;border-radius:6px;opacity:.85}
+.s1{left:760px;top:600px;transform:rotate(-8deg)}
+.s2{left:980px;top:690px;transform:rotate(5deg);border-color:#B5121B;color:#B5121B}
+.string{position:absolute;left:40px;top:470px;width:30px;height:10px;background:#efe6d0;border-radius:5px}
+</style></head><body>
+<div class="cover">
+ <div class="top">
+  <div class="logo"><div class="ics">ICS</div><div class="rule"></div><div class="words">Integrated<br>Care<br>Solutions</div></div>
+  <nav><span>Services</span><span>Process</span><span>Contact</span></nav>
+ </div>
+ <div class="fields"><div>File No. ICS / Back-Office</div><div>Office: Mayur Vihar III, Delhi</div><div>Dealing: Kunal Chopra</div></div>
+ <div class="subject">Subject —</div>
+ <h1>Your data entry, accounts &amp; back office. Handled.</h1>
+ <p class="lede">Send us the work. We enter it, account for it, check it and return it — and you deal directly with the owner.</p>
+</div>
+<div class="string"></div>
+<div class="slip"><h3>Routing slip · New work</h3>
+ <label>Service needed</label><div class="in"></div>
+ <label>Your name &amp; phone</label><div class="in"></div>
+ <div class="btn">Send to Kunal on WhatsApp</div>
+</div>
+<div class="stamp s1">RECEIVED</div>
+<div class="stamp s2">VERIFIED · ICS</div>
+</body></html>

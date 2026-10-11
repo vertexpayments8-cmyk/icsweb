@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-11T00:00:00Z",
+  "title": "Design System: ICS – Integrated Care Solutions",
+  "extensions": {
+    "colorMeta": {
+      "crimson": { "role": "primary", "displayName": "Letterhead Crimson", "canonical": "#a3162d", "tonalRamp": ["#2e050c", "#520a16", "#84101f", "#a3162d", "#c4394f", "#dc7283", "#efb2bc", "#fbeef0"] },
+      "crimson-dark": { "role": "primary", "displayName": "Oxblood", "canonical": "#84101f", "tonalRamp": ["#26040a", "#440812", "#84101f", "#9c2236", "#bb4f60", "#d6858f", "#ecbdc3", "#f9ecee"] },
+      "crimson-tint": { "role": "primary", "displayName": "Crimson Blush", "canonical": "#fbeef0", "tonalRamp": ["#520a16", "#84101f", "#a3162d", "#c4394f", "#dc7283", "#efb2bc", "#f6d7dc", "#fbeef0"] },
+      "ok": { "role": "secondary", "displayName": "Ledger Green", "canonical": "#1f7a4a", "tonalRamp": ["#0a2918", "#124a2d", "#1f7a4a", "#2f9460", "#5bb283", "#93cfad", "#c6e6d3", "#e7f3ec"] },
+      "ok-tint": { "role": "secondary", "displayName": "Ledger Green Tint", "canonical": "#e7f3ec", "tonalRamp": ["#124a2d", "#1f7a4a", "#2f9460", "#5bb283", "#93cfad", "#c6e6d3", "#d9eee2", "#e7f3ec"] },
+      "whatsapp": { "role": "secondary", "displayName": "WhatsApp Green", "canonical": "#1fa855", "tonalRamp": ["#0a3a1d", "#126633", "#1a8c46", "#1fa855", "#4cc27a", "#86d9a5", "#c2edd1", "#ebf9f0"] },
+      "ink": { "role": "neutral", "displayName": "Charcoal Ink", "canonical": "#16181d", "tonalRamp": ["#0b0c0f", "#16181d", "#23262e", "#3a3e46", "#5b606a", "#8a8e96", "#c4c6cb", "#f3f2ee"] },
+      "ink-2": { "role": "neutral", "displayName": "Graphite", "canonical": "#3a3e46" },
+      "muted": { "role": "neutral", "displayName": "Slate Muted", "canonical": "#5b606a" },
+      "line": { "role": "neutral", "displayName": "Warm Hairline", "canonical": "#e3e2dd", "tonalRamp": ["#2a2925", "#4a4842", "#76746c", "#a9a7a0", "#cfcdc6", "#e3e2dd", "#f5f4f0", "#ffffff"] },
+      "line-strong": { "role": "neutral", "displayName": "Warm Hairline Strong", "canonical": "#cfcdc6" },
+      "surface": { "role": "neutral", "displayName": "Paper Stone", "canonical": "#f5f4f0" },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "#ffffff" },
+      "charcoal": { "role": "neutral", "displayName": "Night Charcoal", "canonical": "#17191f" },
+      "charcoal-2": { "role": "neutral", "displayName": "Charcoal Raised", "canonical": "#23262e" },
+      "on-dark": { "role": "neutral", "displayName": "On-Dark", "canonical": "#f3f2ee" },
+      "on-dark-muted": { "role": "neutral", "displayName": "On-Dark Muted", "canonical": "#b4b6bd" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only; one phrase may be crimson." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles and the CTA band title." },
+      "title-lg": { "displayName": "Title Large", "purpose": "Active service title in the detail panel." },
+      "title": { "displayName": "Title", "purpose": "Process steps, Why ICS points, sector heading." },
+      "lede": { "displayName": "Lede", "purpose": "Section ledes in muted, max 62ch." },
+      "body": { "displayName": "Body", "purpose": "Running text, 52 to 56ch in content blocks." },
+      "label": { "displayName": "Label", "purpose": "Form labels, contact terms, table headers. Sentence case." },
+      "data": { "displayName": "Data", "purpose": "Register references and amounts, phone numbers; tabular figures." }
+    },
+    "shadows": [
+      { "name": "ambient", "value": "0 1px 2px rgba(22, 24, 29, 0.06), 0 12px 32px -12px rgba(22, 24, 29, 0.18)", "purpose": "Small raised tiles such as the service detail icon." },
+      { "name": "ambient-lg", "value": "0 2px 4px rgba(22, 24, 29, 0.05), 0 30px 60px -24px rgba(22, 24, 29, 0.3)", "purpose": "Hero register and enquiry form card." },
+      { "name": "crimson-lift", "value": "0 1px 2px rgba(132, 16, 31, 0.3), 0 8px 20px -10px rgba(163, 22, 45, 0.7)", "purpose": "Primary buttons at rest." },
+      { "name": "crimson-lift-hover", "value": "0 1px 2px rgba(132, 16, 31, 0.3), 0 14px 28px -12px rgba(163, 22, 45, 0.8)", "purpose": "Primary buttons on hover." },
+      { "name": "header-scrolled", "value": "0 10px 30px -18px rgba(22, 24, 29, 0.35)", "purpose": "Sticky header after scroll." },
+      { "name": "focus-halo", "value": "0 0 0 4px rgba(163, 22, 45, 0.14)", "purpose": "Input focus halo with crimson border." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Exponential ease-out shared by all CSS transitions and motion components." },
+      { "name": "duration-control", "value": "0.25s", "purpose": "Button, tab and chip state transitions." },
+      { "name": "duration-panel", "value": "0.4s", "purpose": "Service panel crossfade (rise 14px, blur 6px) and accordion height." },
+      { "name": "duration-marker", "value": "0.5s", "purpose": "Service tab marker slide and process step dot fill." },
+      { "name": "duration-hero", "value": "0.9s", "purpose": "Hero copy rise (24px), staggered 0.05s to 0.4s." },
+      { "name": "rail-spring", "value": "spring(stiffness 120, damping 30)", "purpose": "Scroll-linked process rail line-draw." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce", "purpose": "Collapse all transitions and animations to 0.01ms; show finished states." }
+    ],
+    "breakpoints": [
+      { "name": "xs", "value": "420px" },
+      { "name": "hero-actions", "value": "480px" },
+      { "name": "sm", "value": "600px" },
+      { "name": "utility", "value": "640px" },
+      { "name": "md", "value": "720px" },
+      { "name": "process", "value": "900px" },
+      { "name": "lg", "value": "960px" },
+      { "name": "xl", "value": "1024px" },
+      { "name": "xxl", "value": "1100px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Crimson primary action with a crimson-tinted lift; one per context.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2\"/></svg>Call Kunal</a>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; min-height: 48px; padding: 0.75rem 1.4rem; border: 1.5px solid transparent; border-radius: 8px; font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); font-weight: 600; font-size: 1rem; line-height: 1.2; text-decoration: none; cursor: pointer; transition: background-color 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.25s cubic-bezier(0.16,1,0.3,1), transform 0.25s cubic-bezier(0.16,1,0.3,1), border-color 0.25s cubic-bezier(0.16,1,0.3,1); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2.5px solid var(--crimson, #a3162d); outline-offset: 3px; } .ds-btn-primary { background: var(--crimson, #a3162d); color: #fff; box-shadow: 0 1px 2px rgba(132,16,31,0.3), 0 8px 20px -10px rgba(163,22,45,0.7); } .ds-btn-primary:hover { background: var(--crimson-dark, #84101f); box-shadow: 0 1px 2px rgba(132,16,31,0.3), 0 14px 28px -12px rgba(163,22,45,0.8); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action beside the primary (e.g. WhatsApp us).",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">WhatsApp us</a>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem; min-height: 48px; padding: 0.75rem 1.4rem; background: var(--white, #fff); color: var(--ink, #16181d); border: 1.5px solid var(--line-strong, #cfcdc6); border-radius: 8px; font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); font-weight: 600; font-size: 1rem; line-height: 1.2; text-decoration: none; transition: border-color 0.25s cubic-bezier(0.16,1,0.3,1); } .ds-btn-outline:hover { border-color: var(--ink, #16181d); } .ds-btn-outline:focus-visible { outline: 2.5px solid var(--crimson, #a3162d); outline-offset: 3px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Enquiry form field with label; crimson border and halo on focus.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Your name</span><input class=\"ds-input\" placeholder=\"Full name\"></label>",
+      "css": ".ds-field { display: grid; gap: 0.45rem; font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); } .ds-field-label { font-size: 0.9375rem; font-weight: 600; color: var(--ink, #16181d); } .ds-input { width: 100%; min-height: 52px; padding: 0.8rem 1rem; font: inherit; font-size: 1rem; color: var(--ink, #16181d); background: #fff; border: 1.5px solid var(--line-strong, #cfcdc6); border-radius: 8px; transition: border-color 0.2s, box-shadow 0.2s; } .ds-input::placeholder { color: #7a7e86; } .ds-input:hover { border-color: #a9a7a0; } .ds-input:focus { outline: none; border-color: var(--crimson, #a3162d); box-shadow: 0 0 0 4px rgba(163,22,45,0.14); }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Sticky white header under a crimson letterhead rule; links wipe a crimson underline on hover.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\">Services</a><a href=\"#\">How we work</a><a href=\"#\">Why ICS</a><a href=\"#\">Contact</a></nav>",
+      "css": ".ds-nav { display: flex; gap: 2rem; padding: 1.5rem 2rem; background: #fff; border-bottom: 2px solid var(--crimson, #a3162d); font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); } .ds-nav a { position: relative; font-weight: 500; color: var(--ink-2, #3a3e46); text-decoration: none; padding: 0.4rem 0; transition: color 0.2s; } .ds-nav a::after { content: ''; position: absolute; left: 0; right: 0; bottom: -2px; height: 2px; background: var(--crimson, #a3162d); transform: scaleX(0); transform-origin: right; transition: transform 0.35s cubic-bezier(0.16,1,0.3,1); } .ds-nav a:hover { color: var(--ink, #16181d); } .ds-nav a:hover::after { transform: scaleX(1); transform-origin: left; } .ds-nav a:focus-visible { outline: 2.5px solid var(--crimson, #a3162d); outline-offset: 3px; border-radius: 4px; }"
+    },
+    {
+      "name": "Verified Pill",
+      "kind": "chip",
+      "refersTo": "pill-verified",
+      "description": "Green verified status in the work register.",
+      "html": "<span class=\"ds-pill-ok\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 12.5 4.5 4.5L19 7.5\"/></svg>Verified</span>",
+      "css": ".ds-pill-ok { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.2rem 0.55rem; border-radius: 999px; font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); font-size: 0.75rem; font-weight: 600; background: var(--ok-tint, #e7f3ec); color: var(--ok, #1f7a4a); }"
+    },
+    {
+      "name": "Service Tab",
+      "kind": "custom",
+      "refersTo": "service-tab-active",
+      "description": "Services explorer tab; active tab is crimson on a blush marker.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab is-active\">Data entry</button><button class=\"ds-tab\">Accounting</button></div>",
+      "css": ".ds-tabs { display: grid; gap: 2px; width: 340px; font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); } .ds-tab { width: 100%; padding: 1rem 1.1rem; border: 0; border-radius: 10px; background: transparent; text-align: left; font: inherit; font-size: 1.0625rem; font-weight: 500; color: var(--ink-2, #3a3e46); cursor: pointer; transition: color 0.25s; } .ds-tab:hover { color: var(--ink, #16181d); background: var(--surface, #f5f4f0); } .ds-tab.is-active { color: var(--crimson, #a3162d); font-weight: 650; background: var(--crimson-tint, #fbeef0); } .ds-tab:focus-visible { outline: 2.5px solid var(--crimson, #a3162d); outline-offset: 3px; }"
+    },
+    {
+      "name": "Service Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "Paper Stone detail panel with hairline border; flat.",
+      "html": "<div class=\"ds-panel\"><h3>Data entry</h3><p>Accurate entry of records into your systems.</p></div>",
+      "css": ".ds-panel { background: var(--surface, #f5f4f0); border: 1px solid var(--line, #e3e2dd); border-radius: 16px; padding: clamp(2rem, 4vw, 3.5rem); font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); color: var(--ink, #16181d); } .ds-panel h3 { margin: 0; font-size: clamp(1.75rem, 1.3rem + 1.6vw, 2.5rem); line-height: 1.1; font-weight: 700; letter-spacing: -0.028em; } .ds-panel p { margin: 1rem 0 0; font-size: 1.15rem; color: var(--ink-2, #3a3e46); max-width: 56ch; }"
+    },
+    {
+      "name": "Process Step",
+      "kind": "custom",
+      "refersTo": "band-dark",
+      "description": "Charcoal band step with a crimson-filling dot and rail once reached.",
+      "html": "<div class=\"ds-steps\"><span class=\"ds-rail\"></span><div class=\"ds-step is-reached\"><span class=\"ds-dot\">1</span><h3>First call</h3></div><div class=\"ds-step\"><span class=\"ds-dot\">2</span><h3>Scope</h3></div></div>",
+      "css": ".ds-steps { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; padding: 4.5rem 2rem 2rem; background: var(--charcoal, #17191f); color: var(--on-dark, #f3f2ee); font-family: var(--font, 'Archivo Variable', Archivo, sans-serif); } .ds-rail { position: absolute; left: 2rem; right: 50%; top: calc(2rem + 21px); height: 2px; background: var(--crimson, #a3162d); } .ds-step { position: relative; } .ds-dot { position: absolute; top: -4.5rem; left: 0; display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.25); background: var(--charcoal, #17191f); color: var(--on-dark-muted, #b4b6bd); font-weight: 700; font-variant-numeric: tabular-nums; transition: background-color 0.5s cubic-bezier(0.16,1,0.3,1), border-color 0.5s cubic-bezier(0.16,1,0.3,1); } .ds-step.is-reached .ds-dot { background: var(--crimson, #a3162d); border-color: var(--crimson, #a3162d); color: #fff; } .ds-step h3 { margin: 0; font-size: 1.3rem; font-weight: 650; letter-spacing: -0.015em; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Letterhead, Kept Straight",
+    "overview": "ICS is the category standard for a corporate services site, played without quirk at the craft level of Infosys BPM and Wipro. Authority comes from order: a white ground, charcoal ink, a single crimson drawn from the company letterhead, a grotesque used for every word, and structure doing the work that invented proof would do elsewhere. The page reads like a well-kept business document: a thin crimson rule under the header and over the footer, sections stacked in a predictable rhythm, numbers set in tabular figures.\n\nDensity is moderate and calm. Sections breathe on a fluid vertical rhythm, content sits in a 1240px container, and the composition alternates white, warm off-white surface, one deep charcoal band (process) and one crimson band (call to action). Depth is soft and ambient, reserved for the objects that matter (the hero register, the enquiry form, primary buttons). Motion is one authored grammar, an exponential ease-out, spent on a few meaningful moments rather than sprinkled on scroll.\n\nThe logo is a fixed brand asset recreated from the letterhead, not a typographic choice: traced vector paths for the heavy condensed ICS, a thin dark-red rule, and \"Integrated / Care / Solutions\" stacked in Archivo at 88% width.",
+    "keyCharacteristics": [
+      "White ground, charcoal ink, one crimson used sparingly and meaningfully.",
+      "One family (Archivo Variable, with width axis) for all text, tight negative tracking on headings.",
+      "Thin crimson rules as the letterhead echo: header bottom, footer top, scroll progress, process rail.",
+      "Soft, ambient shadows; flat everywhere else, separated by 1px warm hairlines.",
+      "One authored line-icon set on a 24px grid, single stroke, rendered in ink or muted.",
+      "Exponential ease-out motion with reduced-motion fully respected."
+    ],
+    "rules": [
+      { "name": "The Reserved Crimson Rule", "body": "Crimson means brand, action, active, link or letterhead rule. It never decorates an icon, a bullet or a background texture. Decorative icons are ink or muted.", "section": "colors" },
+      { "name": "The Green Means Verified Rule", "body": "Success and verification use Ledger Green, never crimson. Crimson is not a status color for \"done\".", "section": "colors" },
+      { "name": "The One Family Rule", "body": "Every word on the site is Archivo. Weight and tracking create hierarchy; no second display face. The logo is an asset, not a type style.", "section": "typography" },
+      { "name": "The Sentence-Case Label Rule", "body": "Labels are sentence case at 600 weight. There are no uppercase tracked labels above headings.", "section": "typography" },
+      { "name": "The Earned Shadow Rule", "body": "Only the register, the form, primary buttons, icon tiles and the scrolled header cast shadows. Panels, cards and lists stay flat with hairlines.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep crimson to brand mark, primary action, active state, links and the letterhead rules (header bottom, footer top, scroll progress, process rail).",
+      "Do use Ledger Green for verified and success states.",
+      "Do draw icons from the one authored line set (24px grid, single stroke, round joins) and render decorative icons in ink or muted.",
+      "Do use the logo component and its traced paths exactly as built; the favicon reuses the same paths.",
+      "Do set numbers in tabular figures wherever they align or update.",
+      "Do use the shared exponential ease-out and honor reduced motion with a finished, static state."
+    ],
+    "donts": [
+      "Don't add section-number counters or numbered section prefixes.",
+      "Don't add decorative grid, line or dot textures to grounds.",
+      "Don't add eyebrow or kicker labels above headings.",
+      "Don't introduce a second display typeface or redraw the logo in live type.",
+      "Don't use hard or offset shadows; depth stays soft and ambient.",
+      "Don't show invented proof as design elements (stat counters, client logo strips, testimonial cards)."
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "title": "Choose the visual world for ICS",
+  "question": "One direction is assigned for the ICS website. Keep it, take my pick or the standard, or re-roll. The logo and name stay exactly as on the letterhead in every option.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Stamp Desk",
+      "kicker": "THE ROLL",
+      "lineage": "Delhi office files, rubber stamps and date seals",
+      "thesis": "Every job ICS takes moves like an office file: Received, Entered, Checked, Delivered — stamped in ICS red.",
+      "palette": ["#D9A44E", "#B5121B", "#3B2A78", "#FBF8F1", "#1B1716"],
+      "materials": ["manila file-board", "rubber-stamp impressions", "violet stamp-pad ink", "tag-lace file string"],
+      "viewport": "The whole viewport is one manila file cover: ICS printed as the issuing office, the subject line is the headline, and a pinned routing slip is a working enquiry form that opens WhatsApp to Kunal while stamps press down in sequence.",
+      "risk": "If the stamps get cute it reads as a gimmick; it must stay as ordered as a real registry.",
+      "raised": [
+        { "from": "challenger-sixpack", "raise": "Six services, six stamps, each owning one job in a fixed ranked grid; reading it is the cross-check." },
+        { "from": "challenger-rail", "raise": "State lives in impression form (outlined pending, solid inked done), never in extra colours; two inks only." },
+        { "from": "challenger-crane", "raise": "One file, never a pile of cards: the process is numbered 01–04 in a strict margin column down the page." },
+        { "from": "challenger-punk", "raise": "Crimson is reserved for the action and the stamp of approval; nothing decorative wears it." }
+      ],
+      "html": ".impeccable/decision/assigned.html"
+    },
+    {
+      "id": "model-pick",
+      "label": "The Bahi-Khata Ledger",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "red cloth-bound Indian account ledgers",
+      "thesis": "The site is the red ledger every Indian business keeps: services as ruled entries, contact as the closing total.",
+      "palette": ["#9E1622", "#F2E7CF", "#C9A24A", "#1E1A17"],
+      "materials": ["red bookcloth", "ruled ledger paper", "gold-thread binding"],
+      "viewport": "A red cloth cover with the ICS logo blocked in, opening to a ruled spread where services are line items and the call button is the total.",
+      "risk": "Familiar: where most accounting sites land, and ledger paper drifts to cream-and-serif default.",
+      "html": ".impeccable/decision/model-pick.html"
+    },
+    {
+      "id": "challenger-punk",
+      "label": "Photocopy Paste-up",
+      "verdict": "declined",
+      "lineage": "xerox-shop flyers and paste-ups",
+      "thesis": "Services as a photocopied flyer slapped down warm from the copier.",
+      "palette": ["#141414", "#F7F7F2", "#FF3D8B"],
+      "materials": ["xerox toner", "torn paper"],
+      "viewport": "A crooked flyer with ransom headline and biro contact details.",
+      "case": "Delhi knows the xerox shop, but crooked grit contradicts the accuracy ICS sells.",
+      "kept": "One ink reserved for the action.",
+      "risk": "Reads careless, the opposite of an accuracy promise.",
+      "hero": "https://impeccable.style/worlds/cards/design-canon-punk-pasteup-table-hero.webp"
+    },
+    {
+      "id": "challenger-sixpack",
+      "label": "Night Instrument Panel",
+      "verdict": "declined",
+      "lineage": "aircraft six-pack instruments",
+      "thesis": "Six services as six calm gauges.",
+      "palette": ["#0B0C0C", "#F2F2EE", "#7CFF9B", "#FFB020"],
+      "materials": ["matte panel", "luminous markings"],
+      "viewport": "Two rows of three dials on black.",
+      "case": "Business owners do not see themselves in a cockpit; services become metaphors.",
+      "kept": "Each element owns exactly one truth in a fixed, ranked grid.",
+      "risk": "Pure metaphor, no product clarity.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-night-flight-six-pack-hero.webp"
+    },
+    {
+      "id": "challenger-rail",
+      "label": "Emission-Line Rail",
+      "verdict": "declined",
+      "lineage": "spectrogram plates",
+      "thesis": "Everything hangs off one calibrated rail.",
+      "palette": ["#2A2B2E", "#E9E4D8", "#F5C542"],
+      "materials": ["charcoal continuum", "hairlines"],
+      "viewport": "A dark plate with thin coloured lines.",
+      "case": "Too abstract for an owner choosing a vendor on a phone.",
+      "kept": "State carried in line form, not colour.",
+      "risk": "Cold and illegible to this audience.",
+      "hero": "https://impeccable.style/worlds/cards/operate-c-emission-line-rail-hero.webp"
+    },
+    {
+      "id": "challenger-crane",
+      "label": "Folded Crane Sequence",
+      "verdict": "declined",
+      "lineage": "origami fold diagrams",
+      "thesis": "One sheet transformed through numbered folds.",
+      "palette": ["#D93A26", "#F3EDE2", "#1A1A1A", "#C9A227"],
+      "materials": ["washi", "crease lines"],
+      "viewport": "A red square folding into a crane.",
+      "case": "Beautiful, but foreign to a Delhi back-office buyer.",
+      "kept": "One continuous sheet with strictly numbered steps.",
+      "risk": "Borrowed culture, no service clarity.",
+      "hero": "https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-orizuru-crane-sequence-hero.webp"
+    },
+    {
+      "id": "challenger-gyaru",
+      "label": "Street-Magazine Density",
+      "verdict": "declined",
+      "lineage": "Japanese street-fashion spreads",
+      "thesis": "Everything annotated with call-out lines.",
+      "palette": ["#FF4FA3", "#F2C14E", "#FFFFFF"],
+      "materials": ["glitter outline", "cut-outs"],
+      "viewport": "A packed spread of cut-outs and tags.",
+      "case": "Wrong energy and audience for accounting work.",
+      "kept": "Every item labelled precisely with what it includes.",
+      "risk": "Noise where calm is the promise.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-gyaru-magazine-density-hero.webp"
+    },
+    {
+      "id": "challenger-rain",
+      "label": "Gravity-Rain Garden",
+      "verdict": "declined",
+      "lineage": "surreal physics gardens",
+      "thesis": "Rain falling by its own laws.",
+      "palette": ["#5E6B5F", "#3D6FD1", "#D14B3D", "#111111"],
+      "materials": ["dusk garden", "vector rain"],
+      "viewport": "A dusk garden with coloured rain.",
+      "case": "No link to the product or its buyers.",
+      "kept": "One consistent physical law for all motion.",
+      "risk": "Pure spectacle.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-gravity-rain-garden-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean corporate services site in ICS red and charcoal, executed impeccably.",
+    "palette": ["#FFFFFF", "#1C1C1E", "#B5121B", "#F3F3F1"],
+    "materials": ["clean grid", "icons", "photography"],
+    "viewport": "Logo and nav, headline with call button beside a photo, a services grid below.",
+    "risk": "Indistinguishable from every other BPO site by design.",
+    "html": ".impeccable/decision/canon.html"
+  },
+  "steer": true
+}

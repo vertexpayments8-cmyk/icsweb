@@ -1,0 +1,9 @@
+node_modules
+dist
+.wrangler
+.impeccable/config.local.json
+.impeccable/review
+
+# Local tooling and source material, not part of the site
+.claude
+picture
